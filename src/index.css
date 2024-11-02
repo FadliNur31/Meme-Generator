@@ -10,8 +10,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html,input{
+  background-color: #242424;
+  color: white;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+img{
+  border-radius: 5px;
+}
+h2{
+  
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 0px #000000,-2px -2px 0px #000000,2px -2px 0px #000000,-2px 2px 0px #000000,0px 2px 0px #000000,2px 0px 0px #000000,0px -2px 0px #000000,-2px 0px 0px #000000;
+}
+.hoo{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
